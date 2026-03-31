@@ -1,5 +1,5 @@
-import { RUBRIC } from "../utils/constants.js";
-import { scoreColor } from "../utils/helpers.js";
+import { RUBRIC } from "./constants.js";
+import { scoreColor } from "./helpers.js";
 
 export default function ScoreBreakdown({ scores }) {
   return (
