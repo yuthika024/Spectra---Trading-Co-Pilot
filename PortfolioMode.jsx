@@ -1,14 +1,14 @@
 import { useState, useCallback } from "react";
-import Pipeline from "../components/Pipeline.jsx";
-import { claudeCall } from "../utils/api.js";
-import { MARKETS, STYLE_RULES } from "../utils/constants.js";
+import Pipeline from "./Pipeline.jsx";
+import { claudeCall } from "./api.js";
+import { MARKETS, STYLE_RULES } from "./constants.js";
 import {
   extractJSON,
   getPositionVerdict,
   verdictAction,
   fmtP,
   tvUrl,
-} from "../utils/helpers.js";
+} from "./helpers.js";
 
 export default function PortfolioMode() {
   const [positions, setPositions] = useState([
