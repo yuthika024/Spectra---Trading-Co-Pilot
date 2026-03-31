@@ -19,7 +19,7 @@ const API_BASE = import.meta.env.VITE_API_BASE || "";
 export async function claudeCall(systemPrompt, userPrompt, useSearch = false) {
   const body = {
     model: "claude-sonnet-4-6",
-    max_tokens: 1000,
+    max_tokens: 600,
     system: systemPrompt,
     messages: [{ role: "user", content: userPrompt }],
   };
