@@ -25,16 +25,14 @@ Every output answers one question:
 
 ## Key Features
 
-### 🔍 Scanner Mode
+### Scanner Mode
 - Finds high-probability setups across markets
 - Filters using strict scoring rules
 - Only shows trades with:
   - Score ≥ 55
   - Risk:Reward ≥ 2:1
 
----
-
-### 🎯 Position Mode
+### Position Mode
 - Analyzes your existing trades
 - Gives a clear verdict:
   - ADD / HOLD / TRIM / EXIT
@@ -43,16 +41,12 @@ Every output answers one question:
   - Stop-loss
   - Invalidation
 
----
-
-### ⚖️ Compare Mode
+###  Compare Mode
 - Ranks multiple tickers by strength
 - Identifies where capital should go
 - Outputs a direct allocation verdict
 
----
-
-### 📊 Portfolio Mode
+### Portfolio Mode
 - Evaluates your entire portfolio
 - Detects:
   - Sector concentration
