@@ -8,7 +8,7 @@
  * For production: set VITE_API_BASE to your deployed backend URL
  */
 
-const API_BASE = import.meta.env.VITE_API_BASE || "";
+const API_BASE = "https://spectra-backend-lmkk.onrender.com";
 
 /**
  * @param {string} systemPrompt
